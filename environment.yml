@@ -6,6 +6,6 @@ dependencies:
   - python=3.8
   - pip
   - numpy
-  - rdkit
+  - rdkit=2022.03.1
   - pip:
     - scikit-learn
