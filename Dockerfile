@@ -1,5 +1,5 @@
 # Use the official Miniconda image as a base
-FROM continuumio/miniconda3:23.10.0-1
+FROM continuumio/miniconda3
 
 # Copy the environment file to the container
 COPY environment.yml .
@@ -18,4 +18,4 @@ WORKDIR /app
 COPY . /app
 
 # Set the default command to run your application
-# CMD ["test", "python.py"]
+CMD ["bash"]
